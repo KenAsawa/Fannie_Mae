@@ -19,6 +19,7 @@ app.config.update(
 )
 
 # The endpoint for retrieving loan information from the Fannie Mae API, ordered by state
+# Used for Fannie Mae
 loans_endpoint = "https://api.theexchange.fanniemae.com/v1/manufactured-housing-loans/calculations-by-state"
 
 
